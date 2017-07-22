@@ -1,0 +1,19 @@
+{
+  "name": "express-static-svr",
+  "version": "1.0.0",
+  "description": "use express to create a static server",
+  "main": "express-static-svr.js",
+  "scripts": {
+    "test": "node express-static-svr.js",
+    "start": "pm2 run express-static-svr.js"
+  },
+  "keywords": [
+    "static",
+    "svr"
+  ],
+  "author": "monkey jiao",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
