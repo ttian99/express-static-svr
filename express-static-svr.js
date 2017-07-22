@@ -9,5 +9,5 @@ var realPath = path.join(__dirname, cfg.dir);
 
 app.use('/root', express.static(realPath));
 app.listen(cfg.port);
-console.info('~_~ static svr is listen on: ' + cfg.port + ' ~_~ ');
+console.info('[~_~] static svr is listen on: ' + cfg.port + ' [~_~] realPath: ' + realPath);
     
